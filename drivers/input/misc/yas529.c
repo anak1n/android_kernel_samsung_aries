@@ -160,6 +160,7 @@ struct geomagnetic_data {
 	atomic_t last_data[3];
 	atomic_t last_status;
 	atomic_t enable;
+	atomic_t disabling;
 #if !defined(CONFIG_SAMSUNG_GALAXYS4G)
 	atomic_t disabling;
 #endif

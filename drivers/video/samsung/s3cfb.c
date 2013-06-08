@@ -45,7 +45,7 @@
 #include <mach/gpio-p1.h>
 #include "logo_rgb24_wvga_portrait_p1.h"
 #else //CONFIG_MACH_ARIES
-#include "logo_rgb24_wvga_portrait.h"
+#include "beastmode.h"
 #endif
 #include <mach/regs-clock.h>
 #include "s3cfb.h"
